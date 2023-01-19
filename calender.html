@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>CALENDER</title>
+    <style>
+        .calender{
+            text-align: center;
+            background-color: rgb(232, 123, 69);
+            height: 48px;
+            color: chartreuse;
+        }
+        table{
+            width: 100%;
+        }
+        th,td{
+            border: 1px;
+            border-color: rgb(208, 89, 34);
+            border-style: dotted;
+            padding: 20px;
+            text-align: center;
+        
+        }
+        .valid{
+            background-color: antiquewhite;
+        }
+        .valid:hover{
+            background-color: rgb(52, 230, 189);
+            cursor: pointer;
+        }
+        .not-effected{
+            background-color: lightblue;
+        }
+        .not-effected:hover{
+            background-color: rgb(52, 230, 189);
+        }
+        .day{
+            background-color: rgb(137, 233, 69);
+        }
+        .days{
+            background-color: rgb(230, 76, 76);
+        }
+    </style>
+</head>
+<body>
+    <div class="calender">
+        <h1>November - 2023</h1>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th class="day">MON</th>
+                <th class="day">TUE</th>
+                <th class="day">WED</th>
+                <th class="day">THU</th>
+                <th class="days">FRI</th>
+                <th class="days">SAT</th>
+                <th class="day">SUN</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="not-effected">30</td>
+                <td class="not-effected">31</td>
+                <td class="valid">1</td>
+                <td class="valid">2</td>
+                <td class="valid">3</td>
+                <td class="valid">4</td>
+                <td class="valid">5</td>
+            </tr>
+            <tr>
+                <td class="valid">6</td>
+                <td class="valid">7</td>
+                <td class="valid">8</td>
+                <td class="valid">9</td>
+                <td class="valid">10</td>
+                <td class="valid">11</td>
+                <td class="valid">12</td>
+            </tr>
+            <tr>
+                <td class="valid">12</td>
+                <td class="valid">14</td>
+                <td class="valid">15</td>
+                <td class="valid">16</td>
+                <td class="valid">17</td>
+                <td class="valid">18</td>
+                <td class="valid">19</td>
+            </tr>
+            <tr>
+                <td class="valid">20</td>
+                <td class="valid">21</td>
+                <td class="valid">22</td>
+                <td class="valid">23</td>
+                <td class="valid">24</td>
+                <td class="valid">25</td>
+                <td class="valid">26</td>
+            </tr>
+            <tr>
+                <td class="valid">27</td>
+                <td class="valid">28</td>
+                <td class="valid">29</td>
+                <td class="valid">30</td>
+                <td class="not-effected">1</td>
+                <td class="not-effected">2</td>
+                <td class="not-effected">3</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
