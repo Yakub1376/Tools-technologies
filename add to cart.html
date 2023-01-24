@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Add to Cart</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .main{
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            background-color: #e5e3bf;
+            gap: 60px;
+        }
+        .cart{
+            display: grid;
+            grid-template-rows: 3fr 3fr 1fr;
+            background-color: white;
+            width: 300px;
+            height: 400px;
+            text-align: center;
+            border-radius: 30px;
+        }
+        .img{
+            margin-top: 15px;
+            margin-bottom: 10px;
+            width: 250px;
+            height: 200px;
+            place-self: center;
+            box-shadow: 0 4px 20px rgba(11, 10, 10, 0.3);
+            border-radius: 30px;
+        }
+        .content{
+            place-self: center;
+        }
+        .button1{
+            width: 300px;
+            height: 100%;
+            place-self: center;
+            background-color: #FFA300;
+            border-radius: 30px;
+        }
+        .button1:hover{
+            background-color: #FD5530;
+        }
+        .button2{
+            width: 300px;
+            height: 100%;
+            place-self: center;
+            background-color: #27C9A4;
+            border-radius: 30px;
+        }
+        .button2:hover{
+            background-color: #ef44ad;
+        }
+        .button3{
+            width: 300px;
+            height: 100%;
+            place-self: center;
+            background-color: #FD5530;
+            border-radius: 30px;
+        }
+        .button3:hover{
+            background-color: #ad44ef;
+        }
+        h1,p{
+            margin-bottom: 5px;
+        }
+        .txt{
+            color: white;
+            margin-top: 15px;
+        }
+        .txt:hover{
+            color: white;
+            margin-top: 12px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .img1{
+            width: 180px;
+            height: auto;
+            margin-top: 20px;
+        }
+        .img2{
+            width: 175px;
+            height: auto;
+            margin-top: 20px;
+        }
+        .img3{
+            width: 220px;
+            height: auto;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="cart1 cart">
+            <div class="img">
+                <img class="img1" src="assets/pizza.png">
+            </div>
+            <div class="content">
+                <h1>Pizza</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p>$15.99</p>
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+            <div class="button1">
+                <p class="txt" >ADD TO CART</p>
+            </div>
+        </div>
+        <div class="cart2 cart">
+            <div class="img">
+                <img class="img2" src="assets/compass.png">
+            </div>
+            <div class="content">
+                <h1>Compass</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p>$9.99</p>
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+            </div>
+            <div class="button2">
+                <p class="txt" >ADD TO CART</p>
+            </div>
+        </div>
+        <div class="cart3 cart">
+            <div class="img">
+                <img class="img3" src="assets/barger.png">
+            </div>
+            <div class="content">
+                <h1>Barger</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p>$200</p>
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+            </div>
+            <div class="button3">
+                <p class="txt" >ADD TO CART</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
